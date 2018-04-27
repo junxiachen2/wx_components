@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="cimg-wrap">
+    <c-img url="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=783661023,2443275134&fm=27&gp=0.jpg"
+    ></c-img>
+</view>
+
+<cell-group>
+    <cell isLink="true" title="标题" value="这是文字文字文字文字"></cell>
+    <cell isLink="true" title="标题2" value="这是文字文字文字文字"></cell>
+    <cell isLink="true" title="标题3" value="这是文字文字文字文字"></cell>
+</cell-group>

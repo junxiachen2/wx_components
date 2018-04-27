@@ -1,0 +1,8 @@
+.cimg-wrap{
+  width: 160rpx;
+  height: 160rpx;
+  overflow: hidden;
+  border: 4rpx solid #555;
+  border-radius: 100%;
+  margin: 0 auto 20rpx;
+}

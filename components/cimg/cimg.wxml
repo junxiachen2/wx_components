@@ -1,0 +1,8 @@
+<!--图片组件-->
+<image class="c-img-ph"
+       src="{{placehold}}"
+       mode="{{mode}}"></image>
+<image class="c-img"
+       src="{{url}}"
+       bindload="_handleImgLoaded"
+       binderror="_handleImgError"></image>
