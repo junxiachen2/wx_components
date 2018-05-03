@@ -10,6 +10,8 @@ Toast
 
 js 里调用 Toast(options)
 ```
+import Toast from '../../components/toast/bToast'
+
 Toast({
     message: 'blablabla',
     selector: '#btoast'
