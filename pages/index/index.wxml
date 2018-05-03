@@ -20,3 +20,7 @@
 <button size="mini" bindtap="_showToast">点击弹出toast</button>
 <toast id="btoast"></toast>
 
+
+<loadmore loading="{{true}}"></loadmore>
+
+<loadmore nomore="{{true}}"></loadmore>

@@ -22,3 +22,11 @@ Cell 单元格
 |icon|false|无|icon,默认宽30rpx,高30rpx|
 |footer|false|无|右侧内容,若设置了value属性则不生效|
 
+#### 使用方法
+```
+<cell isLink="true" title="标题" value="这是文字文字文字文字">
+    <image slot="icon" src="../../images/icon.png"></image>
+</cell>
+```
+
+
