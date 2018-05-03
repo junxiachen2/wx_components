@@ -1,5 +1,12 @@
-//index.js
-//获取应用实例
+import Toast from '../../components/toast/bToast'
 const app = getApp()
 
-Page({})
+Page({
+  data: {},
+  _showToast(){
+    Toast({
+      message: '这是一个toast',
+      selector: '#btoast'
+    })
+  }
+})

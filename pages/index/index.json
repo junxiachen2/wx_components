@@ -2,6 +2,7 @@
   "usingComponents": {
     "c-img": "../../components/cimg/cimg",
     "cell-group": "../../components/cell-group/cell-group",
-    "cell": "../../components/cell/cell"
+    "cell": "../../components/cell/cell",
+    "toast": "../../components/toast/toast"
   }
 }
