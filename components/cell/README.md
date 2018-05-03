@@ -19,6 +19,6 @@ Cell 单元格
 | 名称 | 必须 | 默认 | 描述 |
 |-----|-----|------|-----|
 |默认|false|无|左侧除了 title,label的自定义内容|
-|icon|false|无|icon|
+|icon|false|无|icon,默认宽30rpx,高30rpx|
 |footer|false|无|右侧内容,若设置了value属性则不生效|
 

@@ -16,10 +16,15 @@
     bottom: 0;
 }
 .brave-cell__icon{
-    margin-right: 30rpx;
+    margin-right: 20rpx;
 }
 .brave-cell__icon:empty{
     display: none;
+}
+.brave-cell__icon image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-top: 10rpx;
 }
 .brave-cell__bd{
     flex: 1;

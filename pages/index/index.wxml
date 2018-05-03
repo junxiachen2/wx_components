@@ -6,11 +6,17 @@
 
 <view class="group">
     <cell-group>
-        <cell isLink="true" title="标题" value="这是文字文字文字文字"></cell>
-        <cell isLink="true" title="标题2" value="这是文字文字文字文字"></cell>
-        <cell isLink="true" title="标题3" value="这是文字文字文字文字"></cell>
+        <cell isLink="true" title="标题" value="这是文字文字文字文字">
+            <image slot="icon" src="../../images/all.png"></image>
+        </cell>
+        <cell isLink="true" title="标题2" value="这是文字文字文字文字">
+            <image slot="icon" src="../../images/all.png"></image>
+        </cell>
+        <cell isLink="true" title="标题3" value="这是文字文字文字文字">
+        </cell>
     </cell-group>
 </view>
 
-<button bindtap="_showToast">点击弹出toast</button>
+<button size="mini" bindtap="_showToast">点击弹出toast</button>
 <toast id="btoast"></toast>
+
