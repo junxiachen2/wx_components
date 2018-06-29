@@ -6,8 +6,11 @@
 
 <view class="group">
     <cell-group>
-        <cell isLink="true" title="标题" value="这是文字文字文字文字">
+        <cell isLink="true" title="标题" >
             <image slot="icon" src="../../images/all.png"></image>
+            <view>
+                啦啦啦啦slot
+            </view>
         </cell>
         <cell isLink="true" title="标题2" value="这是文字文字文字文字">
             <image slot="icon" src="../../images/all.png"></image>
