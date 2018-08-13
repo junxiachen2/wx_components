@@ -11,7 +11,7 @@ json 中引入组件
 ``` 
 在 wxml 页面
 ```
-<toast id="btoast"></toast>
+<toast id="toast"></toast>
 ```
 
 js 里调用 Toast(options)
@@ -20,7 +20,7 @@ import Toast from '../../components/toast/bToast'
 
 Toast({
     message: 'blablabla',
-    selector: '#btoast'
+    selector: '#toast'
 }
 ```
 
