@@ -3,7 +3,13 @@ Toast
 参考 [zanui-webapp](https://github.com/youzan/zanui-weapp/)
 
 #### 使用方法
-在 wxml 页面引入组件
+json 中引入组件
+```
+"usingComponents": {
+    "toast": "../../components/toast/toast"
+  }
+``` 
+在 wxml 页面
 ```
 <toast id="btoast"></toast>
 ```
