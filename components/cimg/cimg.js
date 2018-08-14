@@ -16,13 +16,13 @@ Component({
     }
   },
   methods: {
-    _handleImgLoaded(e){
-      let {url, placehold} = this.data
+    imgLoadedHandler (e) {
+      let { url, placehold } = this.data
       placehold = url
-      this.setData({placehold})
+      this.setData({ placehold })
       this.triggerEvent('imgloaded', e)
     },
-    _handleImgError(e){
+    imgErrorHandler (e) {
       this.triggerEvent('imgerror', e)
     }
   }

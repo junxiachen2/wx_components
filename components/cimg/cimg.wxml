@@ -4,5 +4,5 @@
        mode="{{mode}}"></image>
 <image class="c-img"
        src="{{url}}"
-       bindload="_handleImgLoaded"
-       binderror="_handleImgError"></image>
+       bindload="imgLoadedHandler"
+       binderror="imgErrorHandler"></image>
