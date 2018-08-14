@@ -1,7 +1,7 @@
 {
-  "name": "buy",
+  "name": "wx_components",
   "version": "1.0.0",
-  "description": "wx1563173803ddc117 / b7bf0c61c55523859df88d79017ad8ca",
+  "description": "wx小程序组件",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -340,7 +340,7 @@
       ]
     }
   },
-  "author": "",
+  "author": "junxiachen",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
