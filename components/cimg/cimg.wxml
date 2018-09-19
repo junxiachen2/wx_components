@@ -1,8 +1,12 @@
 <!--图片组件-->
 <image class="c-img-ph"
-       src="{{placehold}}"
-       mode="{{mode}}"></image>
-<image class="c-img"
-       src="{{url}}"
-       bindload="imgLoadedHandler"
-       binderror="imgErrorHandler"></image>
+    src="{{ph}}"
+    mode="{{mode}}"
+    bindtap="imgTapHandler"
+    />
+<image wx:if="{{validUrl}}"
+    class="c-img"
+    src="{{validUrl}}"
+    bindload="imgLoadedHandler"
+    binderror="imgErrorHandler"
+    />

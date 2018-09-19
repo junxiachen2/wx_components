@@ -11,7 +11,7 @@ page{
   margin: 0 auto 20rpx;
 }
 .group{
-    margin: 50rpx 0 50rpx;
-    border: 1rpx solid #ddd;
+    margin: 50rpx -40rpx 50rpx;
+    /* border: 1rpx solid #ddd; */
     border-radius: 6px;
 }
